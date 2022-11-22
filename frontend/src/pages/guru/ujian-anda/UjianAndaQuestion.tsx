@@ -18,7 +18,7 @@ export default function UjianAndaQuestion(){
                         <h3 className="font-bold text-lg">Hapus Question</h3>
                         <p className="py-4">Apakah anda yakin ingin menghapus question ini?</p>
                         <div className="modal-action">
-                        <label htmlFor="trash-icon" className="btn">Ya</label>
+                        <label htmlFor="trash-icon" className="btn btn-primary">Ya</label>
                         <label htmlFor="trash-icon" className="btn">Tidak</label>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function UjianAndaQuestion(){
                 <p className="font-['Open Sans'] font-semibold text-sm my-[30px]">Total Pertanyaan: 0</p>
 
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn m-1">
+                    <label tabIndex={0} className="btn btn-primary m-1">
                         <PlusCircleIcon className='h-[20px] w-[20px] mr-[15px] my-auto'/>
                         <p className='my-auto text-xs'>Question</p>
                     </label>

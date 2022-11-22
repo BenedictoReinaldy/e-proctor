@@ -5,20 +5,22 @@ import Button from "../../../components/forms/Button";
 
 export default function PreExam(){
     return(
-        <div className="bg-[#EFF0F3] min-h-screen py-[30px] px-[50px] text-white">
+        // bg-[#272343]
+        // bg-[#EFF0F3]
+        <div className="bg-[#041C32] min-h-screen py-[30px] px-[50px] text-black">
             
             {/* ICON */}
             <Link to={'/siswa-dashboard'}>
-                <XCircleIcon className="w-9 h-9 text-black"/>
+                <XCircleIcon className="w-9 h-9 text-white"/>
             </Link>
 
             <div className="flex">
                 {/* CARD LEFT SIDE */}
-                <div className="bg-[#272343] w-[320px] mt-10 rounded-[10px] py-9">
+                <div className="bg-[#04293A] w-[320px] mt-10 rounded-[10px] py-9 text-white">
                     {/* IMG */}
                     <img src="https://placeimg.com/192/192/people" alt="" className="w-64 h-44 rounded-[10px] mx-auto" />
                     {/* JUDUL UJIAN */}
-                    <h1 className="text-white font-semibold font-['Open Sans'] text-xl text-center mt-5">Ujian Linguistik</h1>
+                    <h1 className=" font-semibold font-['Open Sans'] text-xl text-center mt-5">Ujian Linguistik</h1>
                     <h3 className="font-['Open Sans']  mx-16 mt-5 font-semibold text-sm">Proctor</h3>
                     {/* PROCTOR NAME */}
                     <div>
@@ -45,7 +47,7 @@ export default function PreExam(){
                     {/* TIME */}
                     <div className="flex text-black justify-center mt-8">
                         {/* ILUSTRATION */}
-                        <div className="py-4 px-1 bg-[#F7F8F9] w-10 rounded-[20px]">
+                        <div className="py-4 px-1 bg-[#cb997e] w-10 rounded-[20px] ">
                             <ClockIcon className="w-6 h-6 mx-auto"/>
                             <img src={DashedLine} className='my-3 mx-auto' alt="" />
                             <ClockIcon className="w-6 h-6 mx-auto"/>
@@ -66,7 +68,7 @@ export default function PreExam(){
                 </div>
 
                 {/* CARD RIGHT RIDE */}
-                <div className="bg-[#272343] mt-10 py-9 px-14 w-[450px] rounded-[10px] ml-8 max-h-[722px]">
+                <div className="bg-[#EFF0F3] mt-10 py-9 px-14 w-[450px] rounded-[10px] ml-8 max-h-[722px]">
                     <p className="font-['Open Sans'] font-semibold text-sm">Jumat, 23 September 2022</p>
                     <div className="bg-orange-300 py-5 px-6 mt-8 text-black rounded-[10px]">
                         <div className="flex justify-center">

@@ -101,12 +101,12 @@ export default function QuillJsBankSoal(){
                 </Button>
 
                 <div className="mt-[40px] flex justify-center">
-                <Button className="mr-[30px]">
-                    <p className="text-xs">Batalkan</p>
-                </Button>
-                <Button>
-                    <p className="text-xs">Simpan Pertanyaan</p>
-                </Button>
+                    <Button className="mr-[30px] bg-neutral">
+                        <p className="text-xs">Batalkan</p>
+                    </Button>
+                    <Button className='btn btn-primary'>
+                        <p className="text-xs">Simpan Pertanyaan</p>
+                    </Button>
                 </div>
             </form>
         </div>

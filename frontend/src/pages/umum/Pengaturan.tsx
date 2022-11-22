@@ -65,10 +65,10 @@ export default function Pengaturan() {
                 </div>
 
                 <div className="justify-end flex pt-[30px] gap-4">
-                    <Button>
+                    <Button className='bg-neutral'>
                         <p>Batalkan</p>
                     </Button>
-                    <Button>
+                    <Button className='btn-primary'>
                         <p>Simpan</p>
                     </Button>
                 </div>

@@ -59,7 +59,7 @@ export default function Kategori() {
                         </div>
                         <div className="modal-action">
                             {/* <label htmlFor="add-kategori" className="btn">Simpan</label> */}
-                            <Button htmlFor="add-kategori" >Simpan</Button>
+                            <Button htmlFor="add-kategori" className='btn-primary' >Simpan</Button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Kategori() {
             Apakah anda yakin ingin menghapus kategori ini?
           </p>
           <div className="modal-action">
-            <label htmlFor="trash-icon" className="btn">
+            <label htmlFor="trash-icon" className="btn btn-primary">
               Ya
             </label>
             <label htmlFor="trash-icon" className="btn">

@@ -67,9 +67,9 @@ export default function UjianAndaSession(){
                                         <input type="datetime-local" name="ditutup" value={session.ditutup} onChange={onChange} id="" className="input input-bordered w-[300px]" />
                                     </div>
                                 </div>
-                                <div className="modal-action">
+                                <div className=" modal-action">
                                 {/* <label type="submit" htmlFor="add-session" className="btn">Simpan</label> */}
-                                <Button htmlFor="add-session" >Simpan</Button>
+                                <Button htmlFor="add-session" className='btn btn-primary' >Simpan</Button>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function UjianAndaSession(){
                         <h3 className="font-bold text-lg">Hapus Session</h3>
                         <p className="py-4">Apakah anda yakin ingin menghapus session ini?</p>
                         <div className="modal-action">
-                        <label htmlFor="trash-icon" className="btn">Ya</label>
+                        <label htmlFor="trash-icon" className="btn btn-primary">Ya</label>
                         <label htmlFor="trash-icon" className="btn">Tidak</label>
                     </div>
                 </div>

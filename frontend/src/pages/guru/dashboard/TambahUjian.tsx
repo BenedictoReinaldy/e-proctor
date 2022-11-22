@@ -112,13 +112,13 @@ export default function TambahUjian(){
 
                         <div className="mt-[30px] justify-end flex mb-[30px]">
                             <Link to={"/dashboard"}>
-                                <Button className="mr-[30px]">
+                                <Button className="mr-[30px] bg-neutral">
                                     <p className='text-xs'>Batalkan</p>
                                 </Button>
                             </Link>
 
                             {/* <Link to={"/tampilujian"}> */}
-                                <Button>
+                                <Button className='btn btn-primary'>
                                     <p className='text-xs'>Simpan Ujian</p>
                                 </Button>
                             {/* </Link> */}

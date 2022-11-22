@@ -93,7 +93,7 @@ export default function UjianAndaUjianSiswa() {
                             </div>
                             </div>
                             <div className="flex flex-col">
-                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-red-400">
+                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-[#cb997e]">
                                 <p>20</p>
                                 <p>Soal</p>
                             </div>
@@ -140,7 +140,7 @@ export default function UjianAndaUjianSiswa() {
                             </div>
                             </div>
                             <div className="flex flex-col">
-                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-red-400">
+                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-[#cb997e]">
                                 <p>20</p>
                                 <p>Soal</p>
                             </div>
@@ -185,7 +185,7 @@ export default function UjianAndaUjianSiswa() {
                             </div>
                             </div>
                             <div className="flex flex-col">
-                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-red-400">
+                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-[#cb997e]">
                                 <p>20</p>
                                 <p>Soal</p>
                             </div>
@@ -230,7 +230,7 @@ export default function UjianAndaUjianSiswa() {
                             </div>
                             </div>
                             <div className="flex flex-col">
-                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-red-400">
+                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-[#cb997e]">
                                 <p>20</p>
                                 <p>Soal</p>
                             </div>
@@ -275,7 +275,7 @@ export default function UjianAndaUjianSiswa() {
                             </div>
                             </div>
                             <div className="flex flex-col">
-                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-red-400">
+                            <div className="rounded-md font-['Open Sans'] font-semibold text-sm text-center py-[10px] px-5 bg-[#cb997e]">
                                 <p>20</p>
                                 <p>Soal</p>
                             </div>
