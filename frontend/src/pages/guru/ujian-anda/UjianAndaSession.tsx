@@ -31,18 +31,6 @@ export default function UjianAndaSession(){
         console.log(session);
     }
 
-    // const handleSession = () => {
-    //     setSession({
-    //         nomor: 1,
-    //         namasession: "Session -N",
-    //         dibuka: "Dibuka",
-    //         ditutup: "Ditutup",
-    //         status: "Belum Selesai",
-    //         kodeujian: "AAAA",
-    //         aksi: "TrashIcon",
-    //     })
-    // }
-
     return(
         <div className="bg-[#EFF0F3] min-h-screen flex text-black">
 
