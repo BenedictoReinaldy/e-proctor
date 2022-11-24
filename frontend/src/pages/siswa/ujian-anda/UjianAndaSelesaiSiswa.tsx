@@ -12,7 +12,7 @@ import TabsSiswa from "../../../components/tabs/siswa/TabsSiswa";
 
 export default function UjianAndaSelesaiSiswa(){
     return(
-        <div className="bg-[#EFF0F3] h-screen flex text-black">
+        <div className="bg-[#EFF0F3] min-h-screen flex text-black">
 
             {/* JIKA GAGAL */}
             <ModalCariUjianGagal/>
@@ -49,7 +49,7 @@ export default function UjianAndaSelesaiSiswa(){
                         </div>
                     </div>
                     {/* MULAI GRID */}
-                    <div className="grid grid-cols-3 pb-8 gap-4 2xl:flex 2xl:overflow-x-auto 2xl:justify-start 2xl:gap-x-4">
+                    <div className="grid grid-cols-3 pb-8 gap-4">
                         <div className="w-[326px] rounded-[10px] bg-[#FBFCFC]">
                             {/* IMAGE */}
                             <img className="h-[140.5px] w-full rounded-t-[10px]" src="https://placeimg.com/192/192/people"/>
